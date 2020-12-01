@@ -255,6 +255,22 @@ img {vertical-align: middle;}
   <span class="dot" onclick="currentSlide(5)"></span> 
 </div>
 
+
+<video width="320" height="240" autoplay>
+  <source src="video/video1.mp4" type="video/mp4">
+</video>
+<p></p>
+
+<video width="320" height="240" autoplay>
+  <source src="video/video2.mp4" type="video/mp4">
+</video>
+<p></p>
+
+<video width="320" height="240" autoplay>
+  <source src="video/video3.mp4" type="video/mp4">
+</video>
+<p></p>
+
 <script>
 var slideIndex = 1;
 showSlides(slideIndex);
@@ -282,72 +298,7 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
-</script>   
-<div style="text-align:center">
-	<p><center><b>St John's Institution Hakka</b></center></p>
-	<video id="video1" width="420">
-    <source src="C:\Users\User\Documents\IMD311\video\video2.WebM" type="video/WebM">
-  </video>
-</div> 
-
-<script> 
-var myVideo = video/video1("video2"); 
-
-function playPause() { 
-  if (myVideo.paused) 
-    myVideo.play(); 
-  else 
-    myVideo.pause(); video\video2.WebM
-} 
-
-function makeBig() { 
-    myVideo.width = 560; 
-} 
-
-function makeSmall() { 
-    myVideo.width = 320; 
-} 
-
-function makeNormal() { 
-    myVideo.width = 420; 
-} 
-</script> 
-
-<p>Video courtesy of <a href="video\video2.WebM" target="_blank">St John's Institution Hakka</a>.</p>
-            
-</script>   
-<div style="text-align:center">
-	<p><center><b>St John's Institution Hakka</b></center></p>
-	<video id="video1" width="420">
-    <source src="C:\Users\User\Documents\IMD311\video\video3.WebM" type="video/WebM">
-  </video>
-</div> 
-
-<script> 
-var myVideo = video/video3("video3"); 
-
-function playPause() { 
-  if (myVideo.paused) 
-    myVideo.play(); 
-  else 
-    myVideo.pause(); video\video3.WebM
-} 
-
-function makeBig() { 
-    myVideo.width = 560; 
-} 
-
-function makeSmall() { 
-    myVideo.width = 320; 
-} 
-
-function makeNormal() { 
-    myVideo.width = 420; 
-} 
-</script> 
-
-<p>Video courtesy of <a href="video\video3.WebM" target="_blank">St John's Institution Hakka</a>.</p>
-
+</script>  
 
 
 </body>
